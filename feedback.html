@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback.css">
+    <title>Feedback</title>
+</head>
+<body>
+   
+    <h1>CUSTOMER FEEDBACK FORM</h1>
+    <form action="">
+       
+        <label for="name">Name:</label>
+    <input type="text" placeholder="Enter your name">
+    <label for="date">Date:</label>
+    <input type="date">
+    <label for="email">Email:</label>
+    <input type="email" placeholder="enter your email">
+    <label for="contact">Contact:</label>
+    <input type="phonenumber"  placeholder="enter your phone number">
+    <label for="address">FeedBack:</label>
+    <textarea name="Address" placeholder="enter your Feedback" cols="30" rows="3"></textarea>  
+    
+   <p>please rate us</p>
+ SERVICE: <span><input type="radio" > 1 <input type="radio" > 2 <input type="radio"> 3 <input type="radio"> 4 <input type="radio"> 5 </span>
+     Food Quality: <span><input type="radio"> 1 <input type="radio"> 2 <input type="radio"> 3 <input type="radio"> 4 <input type="radio"> 5 </span>
+    Cleanliness: <span><input type="radio"> 1 <input type="radio"> 2 <input type="radio"> 3 <input type="radio"> 4 <input type="radio"> 5 </span>
+ Atmosphere: <span><input type="radio"> 1 <input type="radio"> 2 <input type="radio"> 3 <input type="radio"> 4 <input type="radio"> 5 </span>
+ Food quantity: <span><input type="radio"> 1 <input type="radio"> 2 <input type="radio"> 3 <input type="radio"> 4 <input type="radio"> 5 </span>
+Recommandable: <span ><input type="radio"> 1 <input type="radio"> 2 <input type="radio"> 3 <input type="radio"> 4 <input type="radio"> 5 </span>
+       <footer>
+        <marquee><p>Thankyou for your feedback...</p></marquee>
+       </footer>
+<button onclick="button()">Submit</button>
+
+
+<script>
+    function button(){
+        document.write("your response is submitted");
+    }
+</script>
+</form>
+<button class="back"><a href="index.html">Back</a></button>
+</html>
